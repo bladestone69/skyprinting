@@ -30,7 +30,7 @@ export default function ContactSection() {
     await new Promise(resolve => setTimeout(resolve, 1500));
     
     const whatsappMessage = `Hi Jos! I'm ${formState.name} and I'm interested in: ${formState.service}. ${formState.message} Please call me at ${formState.phone}.`;
-    const whatsappUrl = `https://wa.me/27XXXXXXXXX?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/27813021320?text=${encodeURIComponent(whatsappMessage)}`;
     
     setIsSubmitting(false);
     setIsSubmitted(true);
@@ -184,9 +184,9 @@ export default function ContactSection() {
             {/* Quick Contact Cards */}
             <div className="space-y-4">
               {[
-                { icon: MessageCircle, label: "WhatsApp", value: "Chat instantly", color: "#25D366", href: "#" },
-                { icon: Phone, label: "Call Jos", value: "Quick response", color: "#4a90d9", href: "#" },
-                { icon: Mail, label: "Email", value: "jos@skyprinting.co.za", color: "#9b59b6", href: "#" },
+                { icon: MessageCircle, label: "WhatsApp", value: "+27 81 302 1320", color: "#25D366", href: "https://wa.me/27813021320" },
+                { icon: Phone, label: "Call Jos", value: "+27 81 302 1320", color: "#4a90d9", href: "tel:+27813021320" },
+                { icon: Mail, label: "Email", value: "MEYERAH1@TELKOMSA.NET", color: "#9b59b6", href: "mailto:MEYERAH1@TELKOMSA.NET" },
               ].map((contact, i) => (
                 <motion.a
                   key={i}

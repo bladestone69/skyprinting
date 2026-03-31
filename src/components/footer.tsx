@@ -37,7 +37,9 @@ export default function Footer() {
                 <Globe className="w-5 h-5" />
               </motion.a>
               <motion.a
-                href="#"
+                href="https://wa.me/27813021320"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.1, y: -2 }}
                 className="w-10 h-10 rounded-lg bg-[oklch(0.15_0.02_245_/_0.5)] border border-[oklch(0.75_0.15_220_/_0.1)] flex items-center justify-center text-[#64748b] hover:text-[#25D366] transition-colors"
               >
@@ -93,11 +95,11 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-[#4a90d9] mt-0.5" />
-                <span className="text-[#94a3b8] text-sm">+27 XX XXX XXXX</span>
+                <span className="text-[#94a3b8] text-sm">+27 81 302 1320</span>
               </li>
               <li className="flex items-start gap-3">
                 <MessageCircle className="w-5 h-5 text-[#25D366] mt-0.5" />
-                <span className="text-[#94a3b8] text-sm">WhatsApp available</span>
+                <span className="text-[#94a3b8] text-sm">+27 81 302 1320</span>
               </li>
               <li className="flex items-start gap-3">
                 <Clock className="w-5 h-5 text-[#9b59b6] mt-0.5" />
